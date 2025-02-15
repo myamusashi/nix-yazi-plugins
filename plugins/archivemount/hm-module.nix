@@ -25,12 +25,12 @@
   };
   config = {
     cfg,
-    setkeys,
+    setKeys,
     ...
   }: {
     config,
     lib,
     ...
   }:
-    {} // (setkeys cfg.keys);
+    {} // (setKeys cfg.keys);
 }
